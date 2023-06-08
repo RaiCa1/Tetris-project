@@ -1,0 +1,73 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+#text{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    left: 840px;
+    top: 330px;
+
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    display: none;
+    background-color: black;
+}
+
+body{
+    background: url(./img/screen.png);
+}
+
+h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+.info {
+    position: absolute;
+    align-items: center;
+    width: 142px;
+    left: 1163px;
+    top: 110px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.score-box{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 1084px;
+    top: 75px;
+
+    font-weight: 900;
+    font-size: 26px;
+}
+
+#score {
+    position: relative;
+    float: right;
+    margin-top: 1px;
+
+    font-weight: 900;
+    font-size: 26px;
+}
+
+button {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
